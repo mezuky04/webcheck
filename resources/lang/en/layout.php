@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'about' => 'About',
+    'about_this_app' => 'About WebCheck.xyz',
+    'about_this_app_long' => 'WebCheck.xyz is a simple application with attention focused on user experience and on a minimalistic interface.',
+    'add_your_project' => 'Add your project',
+    'admin_center' => 'Admin center',
+    'app_description' => 'Check if a website is offline.',
+    'company' => 'About the developer',
+    'company_homepage' => 'Alex homepage',
+    'company_about_page' => 'About Alex',
+    'contact' => 'Contact',
+    'cookies' => 'Cookies',
+    'created_by' => 'Created by',
+    'legal' => 'Legal',
+    'login' => 'Log in',
+    'messages' => 'Messages',
+    'most_checked_websites' => 'Most checked websites',
+    'privacy' => 'Privacy',
+    'register' => 'Register',
+    'statistics' => 'Statistics',
+    'terms_of_service' => 'Terms of service',
+    'top_projects' => 'Top projects',
+];
