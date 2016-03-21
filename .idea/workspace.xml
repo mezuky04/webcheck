@@ -27,20 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Status.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Status.vue">
+      <file leaf-file-name="CheckBar.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/CheckBar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27659574">
-              <caret line="11" column="101" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.17601547">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
-                <marker date="1458539047542" expanded="true" signature="0:703" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="16:690" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="55:679" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="68:679" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="105:664" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="220:645" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="340:645" placeholder="&lt;xml/&gt;" />
-                <marker date="1458539047542" expanded="true" signature="394:622" placeholder="&lt;xml/&gt;" />
+                <marker date="1458539989150" expanded="true" signature="0:504" placeholder="&lt;xml/&gt;" />
+                <marker date="1458539989150" expanded="true" signature="15:493" placeholder="&lt;xml/&gt;" />
+                <marker date="1458539989150" expanded="true" signature="53:405" placeholder="&lt;xml/&gt;" />
               </folding>
             </state>
           </provider>
@@ -108,7 +103,6 @@
         <option value="$PROJECT_DIR$/resources/assets/js/init.js" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/layout.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/CheckBar.vue" />
         <option value="$PROJECT_DIR$/resources/views/layout/partials/_footer.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
@@ -118,6 +112,7 @@
         <option value="$PROJECT_DIR$/resources/assets/js/components/WebsitesList.vue" />
         <option value="$PROJECT_DIR$/resources/assets/sass/style.scss" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Status.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/CheckBar.vue" />
       </list>
     </option>
   </component>
@@ -183,6 +178,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="slideweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slideweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slideweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -607,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025145067">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -670,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103174604">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70406187">
@@ -688,13 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12572534">
           <caret line="5" column="141" selection-start-line="5" selection-start-column="141" selection-end-line="5" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/CheckBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5473888">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -859,17 +851,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Status.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27659574">
-          <caret line="11" column="101" selection-start-line="11" selection-start-column="101" selection-end-line="11" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.050290134">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
           <folding>
-            <marker date="1458539047542" expanded="true" signature="0:703" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="16:690" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="55:679" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="68:679" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="105:664" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="220:645" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="340:645" placeholder="&lt;xml/&gt;" />
-            <marker date="1458539047542" expanded="true" signature="394:622" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="0:730" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="16:717" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="82:706" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="95:706" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="132:691" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="247:672" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="367:672" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="421:649" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539737434" expanded="true" signature="756:833" placeholder="{...}" />
+            <marker date="1458539737434" expanded="true" signature="805:831" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35203093">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <marker date="1458224178091" expanded="true" signature="179:340" placeholder="{&quot;el&quot;: '#checker'...}" />
+            <marker date="1458224178091" expanded="true" signature="269:295" placeholder="{...}" />
+            <marker date="1458224178091" expanded="true" signature="320:338" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10058027">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <marker date="1458497816260" expanded="true" signature="28:110" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/CheckBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17601547">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1458539989150" expanded="true" signature="0:504" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539989150" expanded="true" signature="15:493" placeholder="&lt;xml/&gt;" />
+            <marker date="1458539989150" expanded="true" signature="53:405" placeholder="&lt;xml/&gt;" />
           </folding>
         </state>
       </provider>
