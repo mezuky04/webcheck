@@ -21,7 +21,7 @@ class CheckWebsiteRequest extends Request {
      */
     public function rules() {
         return [
-            'website' => ['required', 'valid_url_scheme', 'valid_domain']
+            'website' => ['required', 'string', 'between:3,70', 'valid_url_scheme', 'valid_domain']
         ];
     }
 

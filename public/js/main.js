@@ -11687,7 +11687,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n\n<div class=\"col m6 offset-m3\">\n    <br>\n    <div class=\"card-panel\">\n        <div class=\"row center\">\n            <h4 class=\"light-blue-text light\">{{ website.website.name }}</h4><br>\n            <div v-bind:class=\"{ 'online': website.online, 'offline': !website.online}\"></div>\n            <div class=\"grey-text lighten-1\">\n                <br>\n                <h5 class=\"green-text lighten-1 light\" v-show=\"website.online\">The website {{ website.website.name }} is online.</h5>\n                <h5 class=\"red-text lighten-1 light\" v-show=\"!website.online\">Looks like {{ website.website.name }} is offline.</h5>\n            </div>\n        </div>\n    </div>\n</div>\n\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n\n<div class=\"col m6 offset-m3\">\n    <br>\n    <div class=\"card-panel\">\n        <div class=\"row center\">\n            <h4 class=\"light-blue-text light truncate\">{{ website.website.name }}</h4><br>\n            <div v-bind:class=\"{ 'online': website.online, 'offline': !website.online}\"></div>\n            <div class=\"grey-text lighten-1\">\n                <br>\n                <h5 class=\"green-text lighten-1 light\" v-show=\"website.online\">The website <span class=\"truncate\">{{ website.website.name }}</span> is online.</h5>\n                <h5 class=\"red-text lighten-1 light\" v-show=\"!website.online\">Looks like <span class=\"truncate\">{{ website.website.name }}</span> is offline.</h5>\n            </div>\n        </div>\n    </div>\n</div>\n\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
@@ -11736,7 +11736,7 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<h4 class=\"grey-text light center\">{{ title }}</h4>\n<div class=\"collection\">\n    <a v-for=\"website in websites\" href=\"#\" class=\"collection-item blue-text\">\n        {{ website.name }}\n        <span class=\"secondary-content blue-text\"><i class=\"material-icons left\">visibility</i>{{ website.checks }}</span>\n    </a>\n</div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div v-show=\"websites.length\">\n    <h4 class=\"grey-text light center truncate\">{{ title }}</h4>\n    <div class=\"collection\">\n        <a v-for=\"website in websites\" href=\"#\" class=\"collection-item blue-text\">\n            <span>{{ website.name }}</span>\n            <span class=\"secondary-content blue-text\"><i class=\"material-icons left\">visibility</i>{{ website.checks }}</span>\n        </a>\n    </div>\n</div>\n\n<div v-show=\"!websites.length\">\n    <h4 class=\"grey-text light center\">No website has been verified</h4>\n</div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)

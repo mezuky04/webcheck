@@ -1,10 +1,16 @@
 <template>
-    <h4 class="grey-text light center">{{ title }}</h4>
-    <div class="collection">
-        <a v-for="website in websites" href="#" class="collection-item blue-text">
-            {{ website.name }}
-            <span class="secondary-content blue-text"><i class="material-icons left">visibility</i>{{ website.checks }}</span>
-        </a>
+    <div v-show="websites.length">
+        <h4 class="grey-text light center truncate">{{ title }}</h4>
+        <div class="collection">
+            <a v-for="website in websites" href="#" class="collection-item blue-text">
+                <span>{{ website.name }}</span>
+                <span class="secondary-content blue-text"><i class="material-icons left">visibility</i>{{ website.checks }}</span>
+            </a>
+        </div>
+    </div>
+
+    <div v-show="!websites.length">
+        <h4 class="grey-text light center">No website has been verified</h4>
     </div>
 </template>
 

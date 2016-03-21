@@ -9,8 +9,6 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/css/app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 @include('layout.partials._header')
